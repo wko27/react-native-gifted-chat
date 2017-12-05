@@ -57,6 +57,17 @@ export default class Bubble extends React.Component {
     return null;
   }
 
+  renderMessageVideo() {
+    if (this.props.currentMessage.video) {
+      const {containerStyle, wrapperStyle, ...messageVideoProps} = this.props;
+      if (this.props.renderMessageImage) {
+        return this.props.renderMessageVideo(messageVideoProps);
+      }
+      return <MessageVideo {...messageVideoProps}/>;
+    }
+    return null;
+  }
+
   renderTicks() {
     const {currentMessage} = this.props;
     if (this.props.renderTicks) {
