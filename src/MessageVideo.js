@@ -61,7 +61,7 @@ MessageVideo.defaultProps = {
 MessageVideo.propTypes = {
   currentMessage: PropTypes.object,
   containerStyle: ViewPropTypes.style,
-  videoStyle: Video.propTypes.style,
+  videoStyle: Image.propTypes.style,
   videoProps: PropTypes.object,
   lightboxProps: PropTypes.object,
 };
