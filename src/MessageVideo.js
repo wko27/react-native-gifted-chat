@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Image,
   StyleSheet,
-  View,
+  TouchableOpacity,
   ViewPropTypes,
 } from 'react-native';
 import Lightbox from 'react-native-lightbox';
@@ -64,7 +64,7 @@ export default class MessageVideo extends React.Component {
           onTimedMetadata={this.onTimedMetadata}  // Callback when the stream receive some metadata
           style={this.state.isPlaying ? styles.hiddenVideo : styles.backgroundVideo}
         />
-      </View>
+      </TouchableOpacity>
     );
   }
 }
