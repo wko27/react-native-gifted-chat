@@ -11,6 +11,7 @@ import {
 
 import MessageText from './MessageText';
 import MessageImage from './MessageImage';
+import MessageVideo from './MessageVideo';
 import Time from './Time';
 
 import { isSameUser, isSameDay, warnDeprecated } from './utils';
