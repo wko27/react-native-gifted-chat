@@ -44,7 +44,7 @@
     "react-native-invertible-scroll-view": "^1.1.0",
     "react-native-lightbox": "^0.7.0",
     "react-native-parsed-text": "^0.0.19",
-    "react-native-native-video-player": "git+ssh://git@github.com:a-voityuk/react-native-native-video-player.git",
+    "react-native-native-video-player": "git+ssh://git@github.com:a-voityuk/react-native-native-video-player.git#6d173cbb16cbe8ada916f338152320c236f725dd",
     "shallowequal": "1.0.2",
     "uuid": "3.1.0"
   }
